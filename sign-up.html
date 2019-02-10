@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <link
+      rel="stylesheet"
+      href="assets/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="main.js"></script>
+  </head>
+  <body class="sign-up-body">
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+      </span>
+      <a href="#" class="logo">Pizza Routes</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="order.html" class="nav-links">Order Online</a>
+        </li>
+        <li>
+          <a href="sign-up.html" class="nav-links"
+            ><button type="button">Sign Up/Login</button></a
+          >
+        </li>
+        <li>
+          <a href="https://www.twitter.com/Crystaljonah" class="nav-links"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/blessing_crystal" class="nav-links"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/BlessingCrystalJonah"
+            class="nav-links"
+            ><i class="fa fa-facebook"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="heading">
+      <span class="title1">Pizza Routes</span>
+      <span class="title2">Let's get you some pizza!</span>
+      <button class="register">
+        <a href="#modal" class="registerLink">REGISTER NOW</a>
+      </button>
+      <button class="register">
+        <a href="#login-modal" class="registerLink">LOGIN</a>
+      </button>
+    </div>
+
+    <div class="modal_container" id="modal">
+      <div class="modal">
+        <a href="#" class="close">X</a>
+        <span class="modal_heading">
+          ENTER YOUR DETAILS
+        </span>
+        <form action="#">
+          <input type="text" placeholder="Email" /><br />
+          <input type="text" placeholder="Username" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <input type="password" placeholder="Confirm Password" /><br />
+          <input type="submit" class="btnRegister" value="REGISTER" />
+        </form>
+        <a href="#login-modal" class="signin">
+          Have an account already?
+        </a>
+        <a href="#" class="forgotPassword">
+          Forgot Password?
+        </a>
+      </div>
+    </div>
+
+    <div class="modal_container" id="login-modal">
+      <div class="modal">
+        <a href="#" class="close">X</a>
+        <span class="modal_heading">
+          ENTER YOUR DETAILS
+        </span>
+        <form action="#">
+          <input type="text" placeholder="Username" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <a href="order.html"
+            ><input type="button" class="btnRegister" value="LOGIN"
+          /></a>
+        </form>
+        <a href="#modal" class="signin">
+          New User? Create An Account
+        </a>
+        <a href="#" class="forgotPassword">
+          Forgot Password?
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
