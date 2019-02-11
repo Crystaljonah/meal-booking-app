@@ -17,7 +17,6 @@
       media="screen"
       href="assets/css/style.css"
     />
-    <script src="main.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -54,7 +53,73 @@
             ><i class="fa fa-facebook"></i
           ></a>
         </li>
+        <li>
+          <a href="#" class="nav-links"><i class="fa fa-shopping-cart"></i></a>
+        </li>
       </ul>
     </nav>
+    <div class="order">
+      <h2>Order Some Right Away</h2>
+      <p>Prepared with fresh ingredients, all made to order.</p>
+    </div>
+    <main>
+      <input class="tab" id="tab1" type="radio" name="tabs" checked />
+      <label for="tab1">LATEST ORDER</label>
+
+      <input class="tab" id="tab2" type="radio" name="tabs" />
+      <label for="tab2">JUST FOR YOU</label>
+
+      <input class="tab" id="tab3" type="radio" name="tabs" />
+      <label for="tab3">THE SPECIAL</label>
+
+      <section class="menu-items" id="content1">
+        <ol class="menu-item-listing">
+          <li class="menu--item">
+            <span class="menu-item-name">Itaian Pizza</span>
+            <img src="assets/images/pizza.jpg" />
+            <button class="order-menu-item">Order Now</button>
+          </li>
+          <li class="menu--item">
+            <span class="menu-item-name">Cheese PIzza</span>
+            <img src="assets/images/pizza2.jpg" />
+            <button type="button" class="order-menu-item">Order Now</button>
+          </li>
+          <li class="menu--item">
+            <span class="menu-item-name">Marvel Pizza</span>
+            <img src="assets/images/pizza3.jpg" />
+            <button type="button" class="order-menu-item">Order Now</button>
+          </li>
+        </ol>
+      </section>
+
+      <section class="menu-items" id="content2">
+        <ol class="menu-item-listing">
+          <li class="menu--item">
+            <span class="menu-item-name">Men-Ed Pizza</span>
+            <img src="assets/images/pizza4.jpg" />
+            <button type="button" class="order-menu-item">Order Now</button>
+          </li>
+          <li class="menu--item">
+            <span class="menu-item-name"
+              >Garlic and Chicken Toppings Pizza</span
+            >
+            <img src="assets/images/pizza7.jpg" />
+            <button type="button" class="order-menu-item">Order Now</button>
+          </li>
+        </ol>
+      </section>
+
+      <section class="menu-items" id="content3">
+        <ol class="menu-item-listing">
+          <li class="menu--item">
+            <span class="menu-item-name">Family Pizza</span>
+            <img src="assets/images/pizza6.jpg" />
+            <button type="button" class="order-menu-item">Order Now</button>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <script src="assets/js/main.js"></script>
   </body>
+  s
 </html>
